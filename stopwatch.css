@@ -1,0 +1,79 @@
+body {
+    color: #70b2db;
+    font-family: digital-7;
+    text-align: center;  
+    background-color:black;
+    background-image: url(https://media.istockphoto.com/id/1143929192/vector/clock-icon-from-lines-triangles-and-particle-style-design-illustration-vector.jpg?s=612x612&w=0&k=20&c=OTyvD4zHMVBw0c8dbi5U0R97Sl-5DlAkmJazWmRW8g8=);
+    background-repeat: no-repeat;
+    background-position:right-bottom;
+  
+}
+
+#container
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width:30rem;
+  margin:auto;
+  margin-top:5rem;
+  border-radius: 5rem;
+}
+
+
+
+#heading{
+    font-size: 1.5rem;
+    text-decoration: underline;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+#timer{
+    font-size: 2.5em;
+}
+
+#start {
+   font-weight: 600;
+  margin: 20px auto;
+  text-align: center;
+  color: white;
+  background: green;
+  border:solid 2px #35492C;
+  border-radius:5px;
+  padding:16px 40px 16px;
+  letter-spacing: 2px;
+  cursor:pointer;
+}
+
+#stop {
+  font-weight: 600;
+  margin: 20px 5px auto;
+  text-align: center;
+  color: white;
+  background: red;
+  border:solid 2px #590F20;
+  border-radius:5px;
+  padding:16px 40px 16px;
+  letter-spacing: 2px;
+  cursor:pointer;
+}
+
+#reset {
+   font-weight: 600;
+  margin: 20px auto;
+  text-align: center;
+  color: white;
+  background: blue;
+  border:solid 2px #3E383F;
+  border-radius:5px;
+  padding:16px 40px 16px;
+  letter-spacing: 2px;
+  cursor:pointer;
+}
+
+h2
+{
+  font-size: 46px;
+  letter-spacing: 2px;
+  margin: 200px 0 0 ;
+}
